@@ -10,6 +10,9 @@ import UIKit
 
 class JLRootViewController: UIViewController {
   
+  let featuredEntryLoader = FeaturedEntryLoader()
+  let resumeCategoryLoader = ResumeCategoryLoader()
+  
   let resumeCollectionView: UICollectionView = {
     let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
     collectionView.backgroundColor = UIColor.white
@@ -18,6 +21,8 @@ class JLRootViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    featuredEntryLoader.loadLatest()
+    resumeCategoryLoader.loadLatest()
     view.addSubview(resumeCollectionView)
   }
   
@@ -44,7 +49,6 @@ extension JLRootViewController: UICollectionViewDataSource {
 }
 
 extension JLRootViewController: UICollectionViewDelegateFlowLayout {
-
   
   
 }

@@ -11,6 +11,10 @@
 		E20E3E911E09E55F0081C8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20E3E901E09E55F0081C8C8 /* Assets.xcassets */; };
 		E20E3E941E09E55F0081C8C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20E3E921E09E55F0081C8C8 /* LaunchScreen.storyboard */; };
 		E20E3E9E1E09E8FC0081C8C8 /* JLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3E9D1E09E8FC0081C8C8 /* JLRootViewController.swift */; };
+		E20E3EA31E0A18740081C8C8 /* FeaturedEntryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA21E0A18740081C8C8 /* FeaturedEntryLoader.swift */; };
+		E20E3EA71E0A18D50081C8C8 /* FeaturedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA61E0A18D50081C8C8 /* FeaturedEntry.swift */; };
+		E20E3EA91E0A18E60081C8C8 /* ResumeCategoryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA81E0A18E60081C8C8 /* ResumeCategoryLoader.swift */; };
+		E20E3EAB1E0A18F60081C8C8 /* ResumeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EAA1E0A18F60081C8C8 /* ResumeCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		E20E3E931E09E55F0081C8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E20E3E951E09E55F0081C8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E20E3E9D1E09E8FC0081C8C8 /* JLRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLRootViewController.swift; sourceTree = "<group>"; };
+		E20E3EA21E0A18740081C8C8 /* FeaturedEntryLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedEntryLoader.swift; sourceTree = "<group>"; };
+		E20E3EA61E0A18D50081C8C8 /* FeaturedEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedEntry.swift; sourceTree = "<group>"; };
+		E20E3EA81E0A18E60081C8C8 /* ResumeCategoryLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeCategoryLoader.swift; sourceTree = "<group>"; };
+		E20E3EAA1E0A18F60081C8C8 /* ResumeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		E20E3EA11E09E9180081C8C8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E20E3EA21E0A18740081C8C8 /* FeaturedEntryLoader.swift */,
+				E20E3EA61E0A18D50081C8C8 /* FeaturedEntry.swift */,
+				E20E3EA81E0A18E60081C8C8 /* ResumeCategoryLoader.swift */,
+				E20E3EAA1E0A18F60081C8C8 /* ResumeCategory.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -173,8 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20E3EA71E0A18D50081C8C8 /* FeaturedEntry.swift in Sources */,
 				E20E3E9E1E09E8FC0081C8C8 /* JLRootViewController.swift in Sources */,
 				E20E3E8A1E09E55F0081C8C8 /* AppDelegate.swift in Sources */,
+				E20E3EA91E0A18E60081C8C8 /* ResumeCategoryLoader.swift in Sources */,
+				E20E3EAB1E0A18F60081C8C8 /* ResumeCategory.swift in Sources */,
+				E20E3EA31E0A18740081C8C8 /* FeaturedEntryLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
