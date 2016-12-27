@@ -18,6 +18,10 @@ DerivedData/
 xcuserdata/
 
 ## Other
+WhoIsJohn.xcodeproj/xcuserdata/
+WhoIsJohn.xcodeproj/project.xcworkspace/xcuserdata/
+WhoIsJohn.xcodeproj/project.xcworkspace/xcshareddata/
+WhoIsJohn.xcworkspace/xcuserdata/
 *.moved-aside
 *.xcuserstate
 
