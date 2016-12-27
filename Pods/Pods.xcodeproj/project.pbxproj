@@ -18,7 +18,6 @@
 		1CE5CDC809D8D7C33014ADF2354A52CF /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = B9156A3136FB06DCE485B9D0CDCFBC18 /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DDDE9A5156100FB6A267F6BCC632C22 /* IGListAdapterUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D6294836C38A3FC35F829E53925D2D /* IGListAdapterUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20CE78C4F1E99305479E8A752773B24B /* IGListBatchUpdateData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7220A7331E6A3BB425557BD6173239DC /* IGListBatchUpdateData.mm */; };
-		212308C4531EB5D196DFB5569853BB7E /* Pods-WhoIsJohnTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFF57BF75E44926E554940AE3CA572 /* Pods-WhoIsJohnTests-dummy.m */; };
 		250C5284B31A0B4566A492B99F6B680A /* IGListSectionType.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C32295404686EF3A6C7F9DE3A3611A /* IGListSectionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		299AC4E45DDD015CE486913A116AF53A /* IGListIndexPathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E489F843DDB31A3B953A57380D041FB /* IGListIndexPathResult.m */; };
 		2ADB909BB5B0A16B42BAC9DE0B9F0D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
@@ -39,9 +38,10 @@
 		6DC05DAED19A05B1B239D2FD588C4EF7 /* IGListStackedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = C234C7F15CFD866A92C505FC361E6ED1 /* IGListStackedSectionController.m */; };
 		6DF8205380DF1209208417DCB0BB933E /* IGListAdapterDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE1BCF4D7DA27CEE13EC49C94297B06 /* IGListAdapterDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E613C9AECE3F7789BFD9997CB9D29E0 /* IGListSingleSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F4C54091359CBF9906C009EF7301B /* IGListSingleSectionController.m */; };
+		74963FE130EE855D239CCBEBBAF41119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		75A1DA88D371279729116E2FE8D0BFB6 /* IGListMoveIndexPathInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0FCDD21CEEAAD856F9E24306CCAA83 /* IGListMoveIndexPathInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		798FA293D32D12AD1B53E99202724F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		83B6A64F2AD0FE5DF0CEE751EF8BF26D /* UICollectionView+IGListBatchUpdateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53BD0449AA9255DAF4169CC29B3E68 /* UICollectionView+IGListBatchUpdateData.m */; };
+		849C48D8FE8F56E4BF2EE63FFA521679 /* Pods-WhoIsJohnTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8949362D03A016E092994F4816C13DFC /* Pods-WhoIsJohnTests-dummy.m */; };
 		84D87AFDF73634104EAFCB03A82CCA40 /* IGListAdapterUpdaterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 496EC94592CE7F8DA38B9848EBE728CC /* IGListAdapterUpdaterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		887E96BDA96118C5EBAAB3EA476B2A04 /* IGListStackedSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9431FE5B23A431CD7B6E0408C7309DC7 /* IGListStackedSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		889AADC3C1BE1DD2704B08D219522B17 /* IGListStackedSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AD646256D3D81996F0E8C123009A48 /* IGListStackedSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,6 +49,7 @@
 		8ADB5A14B7707E2A4285ACA85F6DB067 /* IGListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E3072E2706319DC05D20A78042F7CC /* IGListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C1D6B555F9936B7ADB6F70C4F297CCA /* IGListScrollDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4276573ACEFBE566741F5042F44F9EC5 /* IGListScrollDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DECCC3914EF1FB8F1376F7F0F22AA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9594760F25BD9F20CA224E3D21B41595 /* Pods-WhoIsJohnTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87904A5E981BB7B9F7A5436606FD6391 /* Pods-WhoIsJohnTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E0190CE92E119EE99BE24CE87B7F499 /* IGListAdapterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B103A21F54A8A8DE06F149DA78CC9D1 /* IGListAdapterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A1D3D6918CDDDB84C12F9029732C85D7 /* IGListDiff.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCDA6ABB82B38BB470CD32A9F2A0DBAF /* IGListDiff.mm */; };
 		A270BA67210E89F31B7EAA4DC320F82B /* IGListMoveIndexInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1780CC568FBC258AA4A9B40DD29593F2 /* IGListMoveIndexInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -56,14 +57,14 @@
 		A37632320946CC05DC84449C0F23D7EF /* IGListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C44255F48C0A166E827FCAD054BAE0AE /* IGListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3C63A19DD5D204FDF88C1C5B131DE8D /* IGListDisplayDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 402B87B926A75C5A247F8AC738506635 /* IGListDisplayDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A430D44BF9642FA6C62D1B3212E3B7C9 /* IGListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A77885006CED3184A8123732B9E54934 /* IGListCollectionView.m */; };
-		A7345894E8F3998DD921D9228CF7BE51 /* Pods-WhoIsJohn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE39D56F16FD7C0BFF301EA878A6BA15 /* Pods-WhoIsJohn-dummy.m */; };
+		A7345894E8F3998DD921D9228CF7BE51 /* Pods-WhoIsJohn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238E6CED4E161B635A53EF1AA3EC76A /* Pods-WhoIsJohn-dummy.m */; };
 		AE36B99D142F4595092CF8EC0F0D5F34 /* NSString+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DEB2B2BF2F079632C469C2D31B2915 /* NSString+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B20BF95AD2C7A6588DD3F031B8DC37C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		B5603ECCF4D13ED79FB13DC9BE30DC25 /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 26191CD7AC14B1EF987E61F573EB4BDD /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB2D3FD9525FFCE2B59E769A35234736 /* IGListSingleSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2584710E4334D2B323025145ADE1EF0E /* IGListSingleSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE1EC29245521FAE05DB9EE2DC97E117 /* IGListSectionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DFD3A0F5C004C1A46A4CFEBBAEAE279 /* IGListSectionMap.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C07BA9537D41D1EDDF54D2322DE869DD /* IGListWorkingRangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FEB16E3FD2156D3F12739414376C0E /* IGListWorkingRangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A0E9BED68EBAA5BAF5AE3B4E08775B /* Pods-WhoIsJohn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5B5AF0E4E508BF2620E6CD8A77FA0D /* Pods-WhoIsJohn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A0E9BED68EBAA5BAF5AE3B4E08775B /* Pods-WhoIsJohn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAED2DEEBA74FE5CF0CD36F14A16032 /* Pods-WhoIsJohn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0F0AE9F45B02FD3D7D7A78C6F8CF210 /* IGListMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC2D70F9B41CAA22B703EE37FE637EE /* IGListMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C248DE6AF7DD4D6BDE7BED88FA4ACB96 /* IGListMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA6366353ECCB782EB53570D0472EB /* IGListMoveIndexPath.m */; };
 		C9D7FCED99FEE1EDF4CC6CCF7FDCA50A /* IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F57205C738D716560BA82EE39260BB /* IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -91,26 +92,34 @@
 			remoteGlobalIDString = 9D781EB30AA915DF5F4DD7F2BB2A2CA3;
 			remoteInfo = IGListKit;
 		};
+		F906BFA9E137D7DD135EDD193A150A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D781EB30AA915DF5F4DD7F2BB2A2CA3;
+			remoteInfo = IGListKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011B1FA8BF1479EF80940DBCB1A72571 /* Pods-WhoIsJohnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohnTests.release.xcconfig"; sourceTree = "<group>"; };
 		0283A4561B6F28C0DEEE1133EBBB11CC /* IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdateData.h; path = Source/Common/IGListBatchUpdateData.h; sourceTree = "<group>"; };
 		02FEB16E3FD2156D3F12739414376C0E /* IGListWorkingRangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListWorkingRangeDelegate.h; path = Source/IGListWorkingRangeDelegate.h; sourceTree = "<group>"; };
+		074C4438A357F274DC74067943B4F174 /* Pods-WhoIsJohnTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhoIsJohnTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		08012E252F0247EE81B52169F871C2BB /* IGListAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAssert.h; path = Source/Common/IGListAssert.h; sourceTree = "<group>"; };
-		0A7267CC3BF6DDFE589410B2FEDD88B2 /* Pods-WhoIsJohnTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohnTests-frameworks.sh"; sourceTree = "<group>"; };
 		1780CC568FBC258AA4A9B40DD29593F2 /* IGListMoveIndexInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexInternal.h; path = Source/Common/Internal/IGListMoveIndexInternal.h; sourceTree = "<group>"; };
-		17DFF57BF75E44926E554940AE3CA572 /* Pods-WhoIsJohnTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhoIsJohnTests-dummy.m"; sourceTree = "<group>"; };
+		1AAED2DEEBA74FE5CF0CD36F14A16032 /* Pods-WhoIsJohn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhoIsJohn-umbrella.h"; sourceTree = "<group>"; };
 		1E489F843DDB31A3B953A57380D041FB /* IGListIndexPathResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexPathResult.m; path = Source/Common/IGListIndexPathResult.m; sourceTree = "<group>"; };
 		2390F1FD18482EA1BADD9ED0D5BA64AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F362B913E79FFA5EC723127B823EA8 /* Pods-WhoIsJohn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhoIsJohn-acknowledgements.plist"; sourceTree = "<group>"; };
 		2584710E4334D2B323025145ADE1EF0E /* IGListSingleSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSingleSectionController.h; path = Source/IGListSingleSectionController.h; sourceTree = "<group>"; };
 		26191CD7AC14B1EF987E61F573EB4BDD /* IGListMoveIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPath.h; path = Source/Common/IGListMoveIndexPath.h; sourceTree = "<group>"; };
-		2B935B11294A24BC1A162141FE04A78B /* Pods-WhoIsJohn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohn.debug.xcconfig"; sourceTree = "<group>"; };
+		2693D539694EC2BC6C60AC722FB32CF1 /* Pods-WhoIsJohn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhoIsJohn.modulemap"; sourceTree = "<group>"; };
+		2D5505040EDBF9AC0BF09E7DAE8B7DFB /* Pods-WhoIsJohnTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohnTests-frameworks.sh"; sourceTree = "<group>"; };
 		2FDA6366353ECCB782EB53570D0472EB /* IGListMoveIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndexPath.m; path = Source/Common/IGListMoveIndexPath.m; sourceTree = "<group>"; };
+		3238E6CED4E161B635A53EF1AA3EC76A /* Pods-WhoIsJohn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhoIsJohn-dummy.m"; sourceTree = "<group>"; };
 		324F2D28C5423D9F748F6BC14B61389F /* IGListReloadDataUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListReloadDataUpdater.m; path = Source/IGListReloadDataUpdater.m; sourceTree = "<group>"; };
 		326CB65B55D0FD8B5B32922B34257646 /* IGListIndexPathResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResult.h; path = Source/Common/IGListIndexPathResult.h; sourceTree = "<group>"; };
 		3F3C77FCA2261DA68C89560C4689C188 /* IGListAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapter.m; path = Source/IGListAdapter.m; sourceTree = "<group>"; };
-		3F5B5AF0E4E508BF2620E6CD8A77FA0D /* Pods-WhoIsJohn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhoIsJohn-umbrella.h"; sourceTree = "<group>"; };
 		402B87B926A75C5A247F8AC738506635 /* IGListDisplayDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDisplayDelegate.h; path = Source/IGListDisplayDelegate.h; sourceTree = "<group>"; };
 		41B42FA7846EDEDB748BDEB2915C04CB /* IGListGridCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListGridCollectionViewLayout.h; path = Source/IGListGridCollectionViewLayout.h; sourceTree = "<group>"; };
 		4276573ACEFBE566741F5042F44F9EC5 /* IGListScrollDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListScrollDelegate.h; path = Source/IGListScrollDelegate.h; sourceTree = "<group>"; };
@@ -121,8 +130,9 @@
 		4C43C714CBE474B7E2F2E777789AD51F /* IGListAdapterUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterUpdater.m; path = Source/IGListAdapterUpdater.m; sourceTree = "<group>"; };
 		4C53BD0449AA9255DAF4169CC29B3E68 /* UICollectionView+IGListBatchUpdateData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+IGListBatchUpdateData.m"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.m"; sourceTree = "<group>"; };
 		551D7045238E950EE38253520736E35F /* IGListKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IGListKit.modulemap; sourceTree = "<group>"; };
-		555BA8BB9607D32EA5075384C480D4D8 /* Pods-WhoIsJohn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhoIsJohn.modulemap"; sourceTree = "<group>"; };
 		57D6294836C38A3FC35F829E53925D2D /* IGListAdapterUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdater.h; path = Source/IGListAdapterUpdater.h; sourceTree = "<group>"; };
+		5B857AF1FC857935A724A793B3B8F5BA /* Pods-WhoIsJohnTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhoIsJohnTests.modulemap"; sourceTree = "<group>"; };
+		5B8B7337C41EE6A3B600B2F4B894DA6F /* Pods-WhoIsJohnTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohnTests-resources.sh"; sourceTree = "<group>"; };
 		5DFD3A0F5C004C1A46A4CFEBBAEAE279 /* IGListSectionMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionMap.h; path = Source/Internal/IGListSectionMap.h; sourceTree = "<group>"; };
 		5E43675C001888BF309B2E2FEBD43A56 /* NSString+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+IGListDiffable.m"; path = "Source/Common/NSString+IGListDiffable.m"; sourceTree = "<group>"; };
 		5ED03D9323FE2AB1C87413118E284BCA /* IGListSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSectionController.m; path = Source/IGListSectionController.m; sourceTree = "<group>"; };
@@ -130,28 +140,32 @@
 		61DAA6F6EC2CE9B5DB26A94898CE8550 /* IGListExperiments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListExperiments.h; path = Source/Common/IGListExperiments.h; sourceTree = "<group>"; };
 		63F1A4FC40EEA32FFA0C21D8E7977874 /* IGListReloadDataUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadDataUpdater.h; path = Source/IGListReloadDataUpdater.h; sourceTree = "<group>"; };
 		640703C9A25FCD1625786C08175F449C /* IGListIndexPathResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResultInternal.h; path = Source/Common/Internal/IGListIndexPathResultInternal.h; sourceTree = "<group>"; };
-		65F05BABC2AAB59EC7B5A8AF581360C1 /* Pods-WhoIsJohnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohnTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B21862FEBB4C1D3FDF7162B9CBA25AD /* IGListKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-prefix.pch"; sourceTree = "<group>"; };
-		7065D03B161B6268E0714857ADFFDD2F /* Pods-WhoIsJohnTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohnTests-resources.sh"; sourceTree = "<group>"; };
 		7220A7331E6A3BB425557BD6173239DC /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
 		75EB218DC8F4CA010D658FA6D9A964D6 /* IGListAdapterProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterProxy.m; path = Source/Internal/IGListAdapterProxy.m; sourceTree = "<group>"; };
 		7C4E8CA483CBD53EC1ADCD44E607E587 /* IGListKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGListKit-dummy.m"; sourceTree = "<group>"; };
+		7D2F052B5628A97CBC38F5FF27575550 /* Pods_WhoIsJohnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhoIsJohnTests.framework; path = "Pods-WhoIsJohnTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6FD48628CB7BE76517EA4DDC8E6B92 /* Pods-WhoIsJohn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohn.debug.xcconfig"; sourceTree = "<group>"; };
 		7E2A8110BC43986BC8ED7665006A4D07 /* IGListSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionController.h; path = Source/IGListSectionController.h; sourceTree = "<group>"; };
+		7E88E75F403D547F95FB14CC0D72BB47 /* Pods-WhoIsJohn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohn-frameworks.sh"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		813533182D90B95094CC7EA9ACCA4DF3 /* Pods-WhoIsJohnTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhoIsJohnTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		814D84FE730DBB69F94D21AAAFC93F8B /* IGListCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionView.h; path = Source/IGListCollectionView.h; sourceTree = "<group>"; };
 		81B76F9E05E10EEDA3B90F6A4ED06871 /* IGListAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDelegate.h; path = Source/IGListAdapterDelegate.h; sourceTree = "<group>"; };
 		82B3E3011D72C29DA909D8A35427F179 /* IGListMoveIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndex.m; path = Source/Common/IGListMoveIndex.m; sourceTree = "<group>"; };
+		87904A5E981BB7B9F7A5436606FD6391 /* Pods-WhoIsJohnTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhoIsJohnTests-umbrella.h"; sourceTree = "<group>"; };
 		88F3F1ED30E249B2A0037B2AB43900A1 /* NSNumber+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+IGListDiffable.m"; path = "Source/Common/NSNumber+IGListDiffable.m"; sourceTree = "<group>"; };
+		8949362D03A016E092994F4816C13DFC /* Pods-WhoIsJohnTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhoIsJohnTests-dummy.m"; sourceTree = "<group>"; };
 		8A164B9CF1755093DD54AC87098324E2 /* IGListAdapterProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterProxy.h; path = Source/Internal/IGListAdapterProxy.h; sourceTree = "<group>"; };
-		8B59FDB737D843180F38C6FF9B966429 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BEC94AC21388C5DD3389CC4E18C6E64 /* Pods-WhoIsJohn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhoIsJohn-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90161DC1A18AD24BA286606DD940BDB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9431FE5B23A431CD7B6E0408C7309DC7 /* IGListStackedSectionControllerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionControllerInternal.h; path = Source/Internal/IGListStackedSectionControllerInternal.h; sourceTree = "<group>"; };
 		96E8F287FB50AC1962352C56B6F9B250 /* IGListDisplayHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDisplayHandler.m; path = Source/Internal/IGListDisplayHandler.m; sourceTree = "<group>"; };
+		96F6A40E485E764E4C4A8B8031A20252 /* Pods-WhoIsJohnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohnTests.release.xcconfig"; sourceTree = "<group>"; };
+		975CC7B84332FF14C0E1830E6DF5745B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97AD646256D3D81996F0E8C123009A48 /* IGListStackedSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionController.h; path = Source/IGListStackedSectionController.h; sourceTree = "<group>"; };
 		9B103A21F54A8A8DE06F149DA78CC9D1 /* IGListAdapterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterInternal.h; path = Source/Internal/IGListAdapterInternal.h; sourceTree = "<group>"; };
-		A313B64CD12F5E241622C302235C8267 /* Pods-WhoIsJohn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohn.release.xcconfig"; sourceTree = "<group>"; };
-		A690CAE21519CFC4C76C15F99DB3609B /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5C121B55A09E905C529C8724FBA613 /* Pods-WhoIsJohnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohnTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A77885006CED3184A8123732B9E54934 /* IGListCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListCollectionView.m; path = Source/IGListCollectionView.m; sourceTree = "<group>"; };
 		A7BB30FFD6732DA586B6CB18BD2E8DCE /* IGListGridCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListGridCollectionViewLayout.m; path = Source/IGListGridCollectionViewLayout.m; sourceTree = "<group>"; };
 		A7E3072E2706319DC05D20A78042F7CC /* IGListKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListKit.h; path = Source/Common/IGListKit.h; sourceTree = "<group>"; };
@@ -159,15 +173,11 @@
 		A91C86B0BD07C38A573E3456FF2A1F9E /* IGListSectionMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSectionMap.m; path = Source/Internal/IGListSectionMap.m; sourceTree = "<group>"; };
 		AA0FCDD21CEEAAD856F9E24306CCAA83 /* IGListMoveIndexPathInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPathInternal.h; path = Source/Common/Internal/IGListMoveIndexPathInternal.h; sourceTree = "<group>"; };
 		AD9F4C54091359CBF9906C009EF7301B /* IGListSingleSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSingleSectionController.m; path = Source/IGListSingleSectionController.m; sourceTree = "<group>"; };
-		ADCCAFFC2EFD5892410C8545D99F645A /* Pods-WhoIsJohnTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhoIsJohnTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B045CB22F62E2B3CCC22CEF7A137B574 /* IGListCollectionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionContext.h; path = Source/IGListCollectionContext.h; sourceTree = "<group>"; };
-		B1723E358E1EF9F2D82B8709E74EC21D /* Pods-WhoIsJohnTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhoIsJohnTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7FC9DC7694BF32BEEE894C6E32BEFD6 /* Pods-WhoIsJohn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhoIsJohn-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9156A3136FB06DCE485B9D0CDCFBC18 /* IGListMoveIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndex.h; path = Source/Common/IGListMoveIndex.h; sourceTree = "<group>"; };
 		BCDA6ABB82B38BB470CD32A9F2A0DBAF /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
 		BFBBA2B402B7BEDEE91EA0346E416FDF /* IGListSectionControllerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionControllerInternal.h; path = Source/Internal/IGListSectionControllerInternal.h; sourceTree = "<group>"; };
 		BFE1BCF4D7DA27CEE13EC49C94297B06 /* IGListAdapterDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDataSource.h; path = Source/IGListAdapterDataSource.h; sourceTree = "<group>"; };
-		C00E09FFCAFC76C7637F69CF1BEA486C /* Pods-WhoIsJohn-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohn-resources.sh"; sourceTree = "<group>"; };
 		C1C32295404686EF3A6C7F9DE3A3611A /* IGListSectionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionType.h; path = Source/IGListSectionType.h; sourceTree = "<group>"; };
 		C234C7F15CFD866A92C505FC361E6ED1 /* IGListStackedSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListStackedSectionController.m; path = Source/IGListStackedSectionController.m; sourceTree = "<group>"; };
 		C2F2CDC5BACB0608CB9840BC49104CEA /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
@@ -175,35 +185,36 @@
 		C38F8E8EB74A20903B2CDBB323ED437C /* IGListWorkingRangeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListWorkingRangeHandler.h; path = Source/Internal/IGListWorkingRangeHandler.h; sourceTree = "<group>"; };
 		C44255F48C0A166E827FCAD054BAE0AE /* IGListKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-umbrella.h"; sourceTree = "<group>"; };
 		CAE6FA5B629BD9DC0A7C921801A5DE2A /* IGListIndexSetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexSetResult.h; path = Source/Common/IGListIndexSetResult.h; sourceTree = "<group>"; };
-		CE39D56F16FD7C0BFF301EA878A6BA15 /* Pods-WhoIsJohn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhoIsJohn-dummy.m"; sourceTree = "<group>"; };
+		CFC47B4647A7DC0EB6C66C30C2933CB7 /* Pods-WhoIsJohn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhoIsJohn.release.xcconfig"; sourceTree = "<group>"; };
+		DD4E86B2F70FE90C11AEA5C2B5AEA49B /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EF0756663DE0373373B7EF18442CFD /* UICollectionView+IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+IGListBatchUpdateData.h"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.h"; sourceTree = "<group>"; };
+		E54E57C9A7185CAD5C6E29B482F70141 /* Pods_WhoIsJohn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhoIsJohn.framework; path = "Pods-WhoIsJohn.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EA7C526D8A6EA80CF2F3C421364B43 /* IGListDiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiff.h; path = Source/Common/IGListDiff.h; sourceTree = "<group>"; };
-		E7F183CA44BB328EEAF953DB353168B7 /* libPods-WhoIsJohnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WhoIsJohnTests.a"; path = "libPods-WhoIsJohnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E890ACC1B8BEC181985BACB93A61907D /* Pods-WhoIsJohn-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohn-resources.sh"; sourceTree = "<group>"; };
 		EB7B19FA0DC7874D954137D2279C55BB /* IGListIndexSetResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexSetResult.m; path = Source/Common/IGListIndexSetResult.m; sourceTree = "<group>"; };
 		ECC2D70F9B41CAA22B703EE37FE637EE /* IGListMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMacros.h; path = Source/Common/IGListMacros.h; sourceTree = "<group>"; };
+		F234EE34058811A38915FB660D5251CD /* Pods-WhoIsJohn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhoIsJohn-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F32F1FD8F15CA56D9DA18B8C3955E979 /* NSNumber+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+IGListDiffable.h"; path = "Source/Common/NSNumber+IGListDiffable.h"; sourceTree = "<group>"; };
-		F4BC5BC9F4670427D6394008F388AF19 /* Pods-WhoIsJohn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhoIsJohn-frameworks.sh"; sourceTree = "<group>"; };
 		F6AAE548E9948CDC708C6254DF6ED0E8 /* IGListUpdatingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListUpdatingDelegate.h; path = Source/IGListUpdatingDelegate.h; sourceTree = "<group>"; };
 		F997A97F4D6A1427CDD3EDC784296AE7 /* IGListAdapterUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterDelegate.h; path = Source/IGListAdapterUpdaterDelegate.h; sourceTree = "<group>"; };
 		FB6F2ACF28C41CF3B13878582B7EDB7B /* IGListDisplayHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDisplayHandler.h; path = Source/Internal/IGListDisplayHandler.h; sourceTree = "<group>"; };
-		FDFB1A0F01646298C8B5FF48B9DE2342 /* Pods_WhoIsJohn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhoIsJohn.framework; path = "Pods-WhoIsJohn.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE292E190F4F604210D44C21307A8E89 /* IGListSupplementaryViewSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSupplementaryViewSource.h; path = Source/IGListSupplementaryViewSource.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8445A79E5054871F1615D660A3C4269C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74963FE130EE855D239CCBEBBAF41119 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE02DB8FD56A1DE116D959E23A0BE50E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2ADB909BB5B0A16B42BAC9DE0B9F0D14 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E596F8EDA2D7356DF8DD358F9C38992D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				798FA293D32D12AD1B53E99202724F8F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +230,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F3A42728442A167B58703E30A89CAA5 /* Pods-WhoIsJohnTests */ = {
+			isa = PBXGroup;
+			children = (
+				90161DC1A18AD24BA286606DD940BDB3 /* Info.plist */,
+				5B857AF1FC857935A724A793B3B8F5BA /* Pods-WhoIsJohnTests.modulemap */,
+				813533182D90B95094CC7EA9ACCA4DF3 /* Pods-WhoIsJohnTests-acknowledgements.markdown */,
+				074C4438A357F274DC74067943B4F174 /* Pods-WhoIsJohnTests-acknowledgements.plist */,
+				8949362D03A016E092994F4816C13DFC /* Pods-WhoIsJohnTests-dummy.m */,
+				2D5505040EDBF9AC0BF09E7DAE8B7DFB /* Pods-WhoIsJohnTests-frameworks.sh */,
+				5B8B7337C41EE6A3B600B2F4B894DA6F /* Pods-WhoIsJohnTests-resources.sh */,
+				87904A5E981BB7B9F7A5436606FD6391 /* Pods-WhoIsJohnTests-umbrella.h */,
+				9B5C121B55A09E905C529C8724FBA613 /* Pods-WhoIsJohnTests.debug.xcconfig */,
+				96F6A40E485E764E4C4A8B8031A20252 /* Pods-WhoIsJohnTests.release.xcconfig */,
+			);
+			name = "Pods-WhoIsJohnTests";
+			path = "Target Support Files/Pods-WhoIsJohnTests";
+			sourceTree = "<group>";
+		};
 		399F245F0F8E3C07D784C049CDFEBA59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,47 +338,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6337E6D7A52CB8B8A508D6CFCB81204C /* Pods-WhoIsJohn */ = {
+			isa = PBXGroup;
+			children = (
+				975CC7B84332FF14C0E1830E6DF5745B /* Info.plist */,
+				2693D539694EC2BC6C60AC722FB32CF1 /* Pods-WhoIsJohn.modulemap */,
+				F234EE34058811A38915FB660D5251CD /* Pods-WhoIsJohn-acknowledgements.markdown */,
+				23F362B913E79FFA5EC723127B823EA8 /* Pods-WhoIsJohn-acknowledgements.plist */,
+				3238E6CED4E161B635A53EF1AA3EC76A /* Pods-WhoIsJohn-dummy.m */,
+				7E88E75F403D547F95FB14CC0D72BB47 /* Pods-WhoIsJohn-frameworks.sh */,
+				E890ACC1B8BEC181985BACB93A61907D /* Pods-WhoIsJohn-resources.sh */,
+				1AAED2DEEBA74FE5CF0CD36F14A16032 /* Pods-WhoIsJohn-umbrella.h */,
+				7D6FD48628CB7BE76517EA4DDC8E6B92 /* Pods-WhoIsJohn.debug.xcconfig */,
+				CFC47B4647A7DC0EB6C66C30C2933CB7 /* Pods-WhoIsJohn.release.xcconfig */,
+			);
+			name = "Pods-WhoIsJohn";
+			path = "Target Support Files/Pods-WhoIsJohn";
+			sourceTree = "<group>";
+		};
+		74D66237153E4E6963EBBA3E0E3DA83E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6337E6D7A52CB8B8A508D6CFCB81204C /* Pods-WhoIsJohn */,
+				1F3A42728442A167B58703E30A89CAA5 /* Pods-WhoIsJohnTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				399F245F0F8E3C07D784C049CDFEBA59 /* Pods */,
-				B1669AAAEF725F934BBE18916D5F50FA /* Products */,
-				A3BB31FABCEE0AEB19CD46770CFC92B8 /* Targets Support Files */,
+				B6C318BE13065AF7BFACCD333E1FEE29 /* Products */,
+				74D66237153E4E6963EBBA3E0E3DA83E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A3BB31FABCEE0AEB19CD46770CFC92B8 /* Targets Support Files */ = {
+		B6C318BE13065AF7BFACCD333E1FEE29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2658B90BFACA60D54919B7D4A6D1EF8 /* Pods-WhoIsJohn */,
-				A7069B0ACB9721352E8F0D439B554D24 /* Pods-WhoIsJohnTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A7069B0ACB9721352E8F0D439B554D24 /* Pods-WhoIsJohnTests */ = {
-			isa = PBXGroup;
-			children = (
-				ADCCAFFC2EFD5892410C8545D99F645A /* Pods-WhoIsJohnTests-acknowledgements.markdown */,
-				B1723E358E1EF9F2D82B8709E74EC21D /* Pods-WhoIsJohnTests-acknowledgements.plist */,
-				17DFF57BF75E44926E554940AE3CA572 /* Pods-WhoIsJohnTests-dummy.m */,
-				0A7267CC3BF6DDFE589410B2FEDD88B2 /* Pods-WhoIsJohnTests-frameworks.sh */,
-				7065D03B161B6268E0714857ADFFDD2F /* Pods-WhoIsJohnTests-resources.sh */,
-				65F05BABC2AAB59EC7B5A8AF581360C1 /* Pods-WhoIsJohnTests.debug.xcconfig */,
-				011B1FA8BF1479EF80940DBCB1A72571 /* Pods-WhoIsJohnTests.release.xcconfig */,
-			);
-			name = "Pods-WhoIsJohnTests";
-			path = "Target Support Files/Pods-WhoIsJohnTests";
-			sourceTree = "<group>";
-		};
-		B1669AAAEF725F934BBE18916D5F50FA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A690CAE21519CFC4C76C15F99DB3609B /* IGListKit.framework */,
-				E7F183CA44BB328EEAF953DB353168B7 /* libPods-WhoIsJohnTests.a */,
-				FDFB1A0F01646298C8B5FF48B9DE2342 /* Pods_WhoIsJohn.framework */,
+				DD4E86B2F70FE90C11AEA5C2B5AEA49B /* IGListKit.framework */,
+				E54E57C9A7185CAD5C6E29B482F70141 /* Pods_WhoIsJohn.framework */,
+				7D2F052B5628A97CBC38F5FF27575550 /* Pods_WhoIsJohnTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -366,24 +398,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/IGListKit";
-			sourceTree = "<group>";
-		};
-		D2658B90BFACA60D54919B7D4A6D1EF8 /* Pods-WhoIsJohn */ = {
-			isa = PBXGroup;
-			children = (
-				8B59FDB737D843180F38C6FF9B966429 /* Info.plist */,
-				555BA8BB9607D32EA5075384C480D4D8 /* Pods-WhoIsJohn.modulemap */,
-				8BEC94AC21388C5DD3389CC4E18C6E64 /* Pods-WhoIsJohn-acknowledgements.markdown */,
-				B7FC9DC7694BF32BEEE894C6E32BEFD6 /* Pods-WhoIsJohn-acknowledgements.plist */,
-				CE39D56F16FD7C0BFF301EA878A6BA15 /* Pods-WhoIsJohn-dummy.m */,
-				F4BC5BC9F4670427D6394008F388AF19 /* Pods-WhoIsJohn-frameworks.sh */,
-				C00E09FFCAFC76C7637F69CF1BEA486C /* Pods-WhoIsJohn-resources.sh */,
-				3F5B5AF0E4E508BF2620E6CD8A77FA0D /* Pods-WhoIsJohn-umbrella.h */,
-				2B935B11294A24BC1A162141FE04A78B /* Pods-WhoIsJohn.debug.xcconfig */,
-				A313B64CD12F5E241622C302235C8267 /* Pods-WhoIsJohn.release.xcconfig */,
-			);
-			name = "Pods-WhoIsJohn";
-			path = "Target Support Files/Pods-WhoIsJohn";
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -450,6 +464,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4C0954F9312503E14E80548C0A30A470 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9594760F25BD9F20CA224E3D21B41595 /* Pods-WhoIsJohnTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7EB555B7782593B4C07D95FA4B0F3939 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,21 +483,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		317A9577378D22B656FB474DE1CDD0AA /* Pods-WhoIsJohnTests */ = {
+		8B1F54E789513E6B90D09EB6D3D29E35 /* Pods-WhoIsJohnTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D772F634BB1A61DD2F5BF45F1A0B6130 /* Build configuration list for PBXNativeTarget "Pods-WhoIsJohnTests" */;
+			buildConfigurationList = 0E32595903D57CEDCDF4B3BCFECC5C32 /* Build configuration list for PBXNativeTarget "Pods-WhoIsJohnTests" */;
 			buildPhases = (
-				C466BC207E9FB0BBB53E5934E0018522 /* Sources */,
-				E596F8EDA2D7356DF8DD358F9C38992D /* Frameworks */,
+				D6A7D3C395E25797BD0CCDFF86252A5C /* Sources */,
+				8445A79E5054871F1615D660A3C4269C /* Frameworks */,
+				4C0954F9312503E14E80548C0A30A470 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70BB18AF599954814B8430835820F1FE /* PBXTargetDependency */,
 			);
 			name = "Pods-WhoIsJohnTests";
 			productName = "Pods-WhoIsJohnTests";
-			productReference = E7F183CA44BB328EEAF953DB353168B7 /* libPods-WhoIsJohnTests.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 7D2F052B5628A97CBC38F5FF27575550 /* Pods_WhoIsJohnTests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		9D781EB30AA915DF5F4DD7F2BB2A2CA3 /* IGListKit */ = {
 			isa = PBXNativeTarget;
@@ -491,7 +515,7 @@
 			);
 			name = IGListKit;
 			productName = IGListKit;
-			productReference = A690CAE21519CFC4C76C15F99DB3609B /* IGListKit.framework */;
+			productReference = DD4E86B2F70FE90C11AEA5C2B5AEA49B /* IGListKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D00EB0BC5A33C92CDCA5A8A4D4AC169C /* Pods-WhoIsJohn */ = {
@@ -509,7 +533,7 @@
 			);
 			name = "Pods-WhoIsJohn";
 			productName = "Pods-WhoIsJohn";
-			productReference = FDFB1A0F01646298C8B5FF48B9DE2342 /* Pods_WhoIsJohn.framework */;
+			productReference = E54E57C9A7185CAD5C6E29B482F70141 /* Pods_WhoIsJohn.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -529,13 +553,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B1669AAAEF725F934BBE18916D5F50FA /* Products */;
+			productRefGroup = B6C318BE13065AF7BFACCD333E1FEE29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9D781EB30AA915DF5F4DD7F2BB2A2CA3 /* IGListKit */,
 				D00EB0BC5A33C92CDCA5A8A4D4AC169C /* Pods-WhoIsJohn */,
-				317A9577378D22B656FB474DE1CDD0AA /* Pods-WhoIsJohnTests */,
+				8B1F54E789513E6B90D09EB6D3D29E35 /* Pods-WhoIsJohnTests */,
 			);
 		};
 /* End PBXProject section */
@@ -578,17 +602,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C466BC207E9FB0BBB53E5934E0018522 /* Sources */ = {
+		D6A7D3C395E25797BD0CCDFF86252A5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212308C4531EB5D196DFB5569853BB7E /* Pods-WhoIsJohnTests-dummy.m in Sources */,
+				849C48D8FE8F56E4BF2EE63FFA521679 /* Pods-WhoIsJohnTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		70BB18AF599954814B8430835820F1FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			target = 9D781EB30AA915DF5F4DD7F2BB2A2CA3 /* IGListKit */;
+			targetProxy = F906BFA9E137D7DD135EDD193A150A38 /* PBXContainerItemProxy */;
+		};
 		AB6217F822CF77908ED7BE9556CF4DD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IGListKit;
@@ -630,32 +660,44 @@
 			};
 			name = Release;
 		};
-		64D21CC55CF246E5D95B937130B559D0 /* Release */ = {
+		6096756E5B1C131B41A7F2E1ADE58B5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 011B1FA8BF1479EF80940DBCB1A72571 /* Pods-WhoIsJohnTests.release.xcconfig */;
+			baseConfigurationReference = 96F6A40E485E764E4C4A8B8031A20252 /* Pods-WhoIsJohnTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WhoIsJohnTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhoIsJohnTests/Pods-WhoIsJohnTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_WhoIsJohnTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		782BB00662891C691321A371B11CD882 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A313B64CD12F5E241622C302235C8267 /* Pods-WhoIsJohn.release.xcconfig */;
+			baseConfigurationReference = CFC47B4647A7DC0EB6C66C30C2933CB7 /* Pods-WhoIsJohn.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -720,9 +762,44 @@
 			};
 			name = Debug;
 		};
+		9363AA19BEFB98F3CC39366303258296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5C121B55A09E905C529C8724FBA613 /* Pods-WhoIsJohnTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WhoIsJohnTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhoIsJohnTests/Pods-WhoIsJohnTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WhoIsJohnTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A6D842F60ABE3E0E343F299D2A761447 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B935B11294A24BC1A162141FE04A78B /* Pods-WhoIsJohn.debug.xcconfig */;
+			baseConfigurationReference = 7D6FD48628CB7BE76517EA4DDC8E6B92 /* Pods-WhoIsJohn.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -839,32 +916,18 @@
 			};
 			name = Release;
 		};
-		F519D0C2A8CD305D5B3E93B4FEEDDCEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65F05BABC2AAB59EC7B5A8AF581360C1 /* Pods-WhoIsJohnTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E32595903D57CEDCDF4B3BCFECC5C32 /* Build configuration list for PBXNativeTarget "Pods-WhoIsJohnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9363AA19BEFB98F3CC39366303258296 /* Debug */,
+				6096756E5B1C131B41A7F2E1ADE58B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -888,15 +951,6 @@
 			buildConfigurations = (
 				927309BA7A6EC59A940E63EB69FE932F /* Debug */,
 				2A9EFDA2E7E4217E094C6DC642F51C42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D772F634BB1A61DD2F5BF45F1A0B6130 /* Build configuration list for PBXNativeTarget "Pods-WhoIsJohnTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F519D0C2A8CD305D5B3E93B4FEEDDCEB /* Debug */,
-				64D21CC55CF246E5D95B937130B559D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
