@@ -7,23 +7,34 @@
 //
 
 import UIKit
+import IGListKit
 
 class JLRootViewController: UIViewController {
   
-  let featuredEntryLoader = FeaturedEntryLoader()
-  let resumeCategoryLoader = ResumeCategoryLoader()
+  let loaders = ["John Lee" as IGListDiffable, JLFeaturedEntryLoader(), JLResumeCategoryLoader()] as [IGListDiffable]
+
+  lazy var adapter: IGListAdapter = {
+    return IGListAdapter(updater: IGListAdapterUpdater(), viewController: self, workingRangeSize: 0)
+  }()
   
-  let resumeCollectionView: UICollectionView = {
-    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+  let collectionView: IGListCollectionView = {
+    let collectionView = IGListCollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
     collectionView.backgroundColor = UIColor.white
     return collectionView
   }()
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    featuredEntryLoader.loadLatest()
-    resumeCategoryLoader.loadLatest()
-    view.addSubview(resumeCollectionView)
+    view.backgroundColor = UIColor.black
+    view.addSubview(collectionView)
+    adapter.collectionView = collectionView
+    adapter.dataSource = self
+  }
+  
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    self.navigationController?.setNavigationBarHidden(true, animated: false)
+    collectionView.frame = view.bounds
   }
   
   override func didReceiveMemoryWarning() {
@@ -32,23 +43,26 @@ class JLRootViewController: UIViewController {
   
 }
 
-extension JLRootViewController: UICollectionViewDataSource {
+extension JLRootViewController: IGListAdapterDataSource {
   
-  func numberOfSections(in collectionView: UICollectionView) -> Int {
-    return 2
+  func objects(for listAdapter: IGListAdapter) -> [IGListDiffable] {
+    return loaders
   }
   
-  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return 0
+  func listAdapter(_ listAdapter: IGListAdapter, sectionControllerFor object: Any) -> IGListSectionController {
+    var listSectionController: IGListSectionController = IGListSectionController()
+    if object is String {
+      listSectionController = JLResumeTitleSectionController()
+    } else if object is JLFeaturedEntryLoader {
+      listSectionController = JLFeaturedWorkCollectionSectionController()
+    } else if object is JLResumeCategoryLoader {
+      listSectionController = JLResumeCategoriesCollectionSectionController()
+    }
+    return listSectionController
   }
   
-  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    return UICollectionViewCell()
+  func emptyView(for listAdapter: IGListAdapter) -> UIView? {
+    return nil;
   }
-  
-}
-
-extension JLRootViewController: UICollectionViewDelegateFlowLayout {
-  
   
 }
