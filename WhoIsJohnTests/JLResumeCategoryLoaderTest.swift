@@ -1,5 +1,5 @@
 //
-//  JLFeaturedEntryLoaderTest.swift
+//  JLResumeCategoryLoaderTest.swift
 //  WhoIsJohn
 //
 //  Created by John Lee on 12/27/16.
@@ -9,13 +9,13 @@
 import XCTest
 @testable import WhoIsJohn
 
-class JLFeaturedEntryLoaderTest: XCTestCase {
+class JLResumeCategoryLoaderTest: XCTestCase {
   
-  var loader: JLFeaturedEntryLoader!
+  var loader: JLResumeCategoryLoader!
   
   override func setUp() {
     super.setUp()
-    loader = JLFeaturedEntryLoader()
+    loader = JLResumeCategoryLoader()
   }
   
   override func tearDown() {
@@ -24,9 +24,9 @@ class JLFeaturedEntryLoaderTest: XCTestCase {
   }
   
   func testLoadLatest() {
-    XCTAssertEqual(0, loader.featuredEntries.count)
+    XCTAssertEqual(0, loader.categories.count)
     loader.loadLatest()
-    XCTAssertTrue(loader.featuredEntries.count > 0)
+    XCTAssertTrue(loader.categories.count > 0)
   }
   
 }
