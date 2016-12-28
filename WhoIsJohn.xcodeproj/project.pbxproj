@@ -7,27 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730BBDDB88CC01C0A6C342A5 /* Pods_WhoIsJohn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CF3E159EC66A4EB0F9C5F7 /* Pods_WhoIsJohn.framework */; };
+		949CB3454E5D58A2457A9C26 /* Pods_WhoIsJohnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5D1D6985AD10603BAD7706 /* Pods_WhoIsJohnTests.framework */; };
 		E20E3E8A1E09E55F0081C8C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3E891E09E55F0081C8C8 /* AppDelegate.swift */; };
 		E20E3E911E09E55F0081C8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20E3E901E09E55F0081C8C8 /* Assets.xcassets */; };
 		E20E3E941E09E55F0081C8C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20E3E921E09E55F0081C8C8 /* LaunchScreen.storyboard */; };
 		E20E3E9E1E09E8FC0081C8C8 /* JLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3E9D1E09E8FC0081C8C8 /* JLRootViewController.swift */; };
-		E20E3EA31E0A18740081C8C8 /* FeaturedEntryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA21E0A18740081C8C8 /* FeaturedEntryLoader.swift */; };
-		E20E3EA71E0A18D50081C8C8 /* FeaturedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA61E0A18D50081C8C8 /* FeaturedEntry.swift */; };
-		E20E3EA91E0A18E60081C8C8 /* ResumeCategoryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA81E0A18E60081C8C8 /* ResumeCategoryLoader.swift */; };
-		E20E3EAB1E0A18F60081C8C8 /* ResumeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EAA1E0A18F60081C8C8 /* ResumeCategory.swift */; };
+		E20E3EA31E0A18740081C8C8 /* JLFeaturedEntryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA21E0A18740081C8C8 /* JLFeaturedEntryLoader.swift */; };
+		E20E3EA71E0A18D50081C8C8 /* JLFeaturedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA61E0A18D50081C8C8 /* JLFeaturedEntry.swift */; };
+		E20E3EA91E0A18E60081C8C8 /* JLResumeCategoryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EA81E0A18E60081C8C8 /* JLResumeCategoryLoader.swift */; };
+		E20E3EAB1E0A18F60081C8C8 /* JLResumeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EAA1E0A18F60081C8C8 /* JLResumeCategory.swift */; };
+		E20E3EBF1E0A40290081C8C8 /* AppDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EBE1E0A40290081C8C8 /* AppDelegateTest.swift */; };
+		E20E3EC31E0A47120081C8C8 /* JLFeaturedWorkCollectionSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EC21E0A47120081C8C8 /* JLFeaturedWorkCollectionSectionController.swift */; };
+		E20E3EC61E0A48980081C8C8 /* JLResumeCategoriesCollectionSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EC51E0A48980081C8C8 /* JLResumeCategoriesCollectionSectionController.swift */; };
+		E20E3EC81E0A50840081C8C8 /* JLHorizontalEmbeddedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EC71E0A50840081C8C8 /* JLHorizontalEmbeddedCollectionViewCell.swift */; };
+		E20E3ECA1E0A53140081C8C8 /* JLFeaturedWorkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3EC91E0A53140081C8C8 /* JLFeaturedWorkCollectionViewCell.swift */; };
+		E258C6451E0BC96300ABF1A2 /* NSObject+IGListDiffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C6441E0BC96300ABF1A2 /* NSObject+IGListDiffable.swift */; };
+		E258C6471E0DA6E200ABF1A2 /* JLFeaturedWorkSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C6461E0DA6E200ABF1A2 /* JLFeaturedWorkSectionController.swift */; };
+		E258C6491E11E98A00ABF1A2 /* JLResumeTitleSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C6481E11E98A00ABF1A2 /* JLResumeTitleSectionController.swift */; };
+		E258C64B1E11F72B00ABF1A2 /* JLResumeTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C64A1E11F72B00ABF1A2 /* JLResumeTitleCollectionViewCell.swift */; };
+		E258C64E1E120F0800ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C64D1E120F0800ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCell.swift */; };
+		E258C6501E120F5000ABF1A2 /* JLResumeCategorySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C64F1E120F5000ABF1A2 /* JLResumeCategorySectionController.swift */; };
+		E258C6521E120F9600ABF1A2 /* JLResumeCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C6511E120F9600ABF1A2 /* JLResumeCategoryCollectionViewCell.swift */; };
+		E258C6541E13220900ABF1A2 /* Pods_WhoIsJohn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E258C6531E13220900ABF1A2 /* Pods_WhoIsJohn.framework */; };
+		E258C6561E13327600ABF1A2 /* JLResumeCategoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C6551E13327600ABF1A2 /* JLResumeCategoryTest.swift */; };
+		E258C6581E13337D00ABF1A2 /* JLFeaturedEntryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C6571E13337D00ABF1A2 /* JLFeaturedEntryTest.swift */; };
+		E258C65A1E13390200ABF1A2 /* JLFeaturedEntryLoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C6591E13390200ABF1A2 /* JLFeaturedEntryLoaderTest.swift */; };
+		E258C65C1E13399900ABF1A2 /* JLResumeCategoryLoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C65B1E13399900ABF1A2 /* JLResumeCategoryLoaderTest.swift */; };
+		E258C65E1E133AA300ABF1A2 /* JLResumeTitleCollectionViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C65D1E133AA300ABF1A2 /* JLResumeTitleCollectionViewCellTest.swift */; };
+		E258C6601E133D8900ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258C65F1E133D8900ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCellTest.swift */; };
+		E2A07CF91E134CC100797262 /* JLResumeCategoryCollectionViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A07CF81E134CC100797262 /* JLResumeCategoryCollectionViewCellTest.swift */; };
+		E2A07CFB1E13510700797262 /* JLFeaturedWorkCollectionViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A07CFA1E13510700797262 /* JLFeaturedWorkCollectionViewCellTest.swift */; };
+		E2A07D021E138CEA00797262 /* JLFeaturedWorkCollectionSectionControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A07D011E138CEA00797262 /* JLFeaturedWorkCollectionSectionControllerTest.swift */; };
+		E2A07D041E1391F700797262 /* JLResumeCategoriesCollectionSectionControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A07D031E1391F700797262 /* JLResumeCategoriesCollectionSectionControllerTest.swift */; };
+		E2A07D061E1393D600797262 /* JLRootViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A07D051E1393D600797262 /* JLRootViewControllerTest.swift */; };
+		E2FEAF041E134B350093EE9E /* JLHorizontalEmbeddedCollectionViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEAF031E134B350093EE9E /* JLHorizontalEmbeddedCollectionViewCellTest.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E20E3EB51E0A3FEE0081C8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20E3E7E1E09E55F0081C8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20E3E851E09E55F0081C8C8;
+			remoteInfo = WhoIsJohn;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0B5D1D6985AD10603BAD7706 /* Pods_WhoIsJohnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoIsJohnTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF3E159EC66A4EB0F9C5F7 /* Pods_WhoIsJohn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoIsJohn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD8C5D3ABA0EA5134306879 /* Pods-WhoIsJohn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoIsJohn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhoIsJohn/Pods-WhoIsJohn.debug.xcconfig"; sourceTree = "<group>"; };
+		573EA827775C0123F95713BF /* Pods-WhoIsJohn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoIsJohn.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhoIsJohn/Pods-WhoIsJohn.release.xcconfig"; sourceTree = "<group>"; };
+		86A57C0A40405F9D55113869 /* Pods-WhoIsJohnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoIsJohnTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhoIsJohnTests/Pods-WhoIsJohnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFEA3C67307586C914DA9CA6 /* Pods-WhoIsJohnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoIsJohnTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhoIsJohnTests/Pods-WhoIsJohnTests.release.xcconfig"; sourceTree = "<group>"; };
 		E20E3E861E09E55F0081C8C8 /* WhoIsJohn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoIsJohn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20E3E891E09E55F0081C8C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E20E3E901E09E55F0081C8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20E3E931E09E55F0081C8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E20E3E951E09E55F0081C8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E20E3E9D1E09E8FC0081C8C8 /* JLRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLRootViewController.swift; sourceTree = "<group>"; };
-		E20E3EA21E0A18740081C8C8 /* FeaturedEntryLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedEntryLoader.swift; sourceTree = "<group>"; };
-		E20E3EA61E0A18D50081C8C8 /* FeaturedEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedEntry.swift; sourceTree = "<group>"; };
-		E20E3EA81E0A18E60081C8C8 /* ResumeCategoryLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeCategoryLoader.swift; sourceTree = "<group>"; };
-		E20E3EAA1E0A18F60081C8C8 /* ResumeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeCategory.swift; sourceTree = "<group>"; };
+		E20E3EA21E0A18740081C8C8 /* JLFeaturedEntryLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedEntryLoader.swift; sourceTree = "<group>"; };
+		E20E3EA61E0A18D50081C8C8 /* JLFeaturedEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedEntry.swift; sourceTree = "<group>"; };
+		E20E3EA81E0A18E60081C8C8 /* JLResumeCategoryLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoryLoader.swift; sourceTree = "<group>"; };
+		E20E3EAA1E0A18F60081C8C8 /* JLResumeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategory.swift; sourceTree = "<group>"; };
+		E20E3EB01E0A3FEE0081C8C8 /* WhoIsJohnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhoIsJohnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20E3EB41E0A3FEE0081C8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20E3EBE1E0A40290081C8C8 /* AppDelegateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTest.swift; sourceTree = "<group>"; };
+		E20E3EC21E0A47120081C8C8 /* JLFeaturedWorkCollectionSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedWorkCollectionSectionController.swift; sourceTree = "<group>"; };
+		E20E3EC51E0A48980081C8C8 /* JLResumeCategoriesCollectionSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoriesCollectionSectionController.swift; sourceTree = "<group>"; };
+		E20E3EC71E0A50840081C8C8 /* JLHorizontalEmbeddedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHorizontalEmbeddedCollectionViewCell.swift; sourceTree = "<group>"; };
+		E20E3EC91E0A53140081C8C8 /* JLFeaturedWorkCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedWorkCollectionViewCell.swift; sourceTree = "<group>"; };
+		E258C6441E0BC96300ABF1A2 /* NSObject+IGListDiffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+IGListDiffable.swift"; sourceTree = "<group>"; };
+		E258C6461E0DA6E200ABF1A2 /* JLFeaturedWorkSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedWorkSectionController.swift; sourceTree = "<group>"; };
+		E258C6481E11E98A00ABF1A2 /* JLResumeTitleSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeTitleSectionController.swift; sourceTree = "<group>"; };
+		E258C64A1E11F72B00ABF1A2 /* JLResumeTitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		E258C64D1E120F0800ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoriesEmbeddedCollectionViewCell.swift; sourceTree = "<group>"; };
+		E258C64F1E120F5000ABF1A2 /* JLResumeCategorySectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategorySectionController.swift; sourceTree = "<group>"; };
+		E258C6511E120F9600ABF1A2 /* JLResumeCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E258C6531E13220900ABF1A2 /* Pods_WhoIsJohn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_WhoIsJohn.framework; path = "../../Library/Developer/Xcode/DerivedData/WhoIsJohn-cmihmgkpxxszknasesunmrfykdek/Build/Products/Debug-iphonesimulator/Pods_WhoIsJohn.framework"; sourceTree = "<group>"; };
+		E258C6551E13327600ABF1A2 /* JLResumeCategoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoryTest.swift; sourceTree = "<group>"; };
+		E258C6571E13337D00ABF1A2 /* JLFeaturedEntryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedEntryTest.swift; sourceTree = "<group>"; };
+		E258C6591E13390200ABF1A2 /* JLFeaturedEntryLoaderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedEntryLoaderTest.swift; sourceTree = "<group>"; };
+		E258C65B1E13399900ABF1A2 /* JLResumeCategoryLoaderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoryLoaderTest.swift; sourceTree = "<group>"; };
+		E258C65D1E133AA300ABF1A2 /* JLResumeTitleCollectionViewCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeTitleCollectionViewCellTest.swift; sourceTree = "<group>"; };
+		E258C65F1E133D8900ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoriesEmbeddedCollectionViewCellTest.swift; sourceTree = "<group>"; };
+		E2A07CF81E134CC100797262 /* JLResumeCategoryCollectionViewCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoryCollectionViewCellTest.swift; sourceTree = "<group>"; };
+		E2A07CFA1E13510700797262 /* JLFeaturedWorkCollectionViewCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedWorkCollectionViewCellTest.swift; sourceTree = "<group>"; };
+		E2A07D011E138CEA00797262 /* JLFeaturedWorkCollectionSectionControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLFeaturedWorkCollectionSectionControllerTest.swift; sourceTree = "<group>"; };
+		E2A07D031E1391F700797262 /* JLResumeCategoriesCollectionSectionControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLResumeCategoriesCollectionSectionControllerTest.swift; sourceTree = "<group>"; };
+		E2A07D051E1393D600797262 /* JLRootViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLRootViewControllerTest.swift; sourceTree = "<group>"; };
+		E2FEAF031E134B350093EE9E /* JLHorizontalEmbeddedCollectionViewCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHorizontalEmbeddedCollectionViewCellTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +105,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730BBDDB88CC01C0A6C342A5 /* Pods_WhoIsJohn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20E3EAD1E0A3FEE0081C8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E258C6541E13220900ABF1A2 /* Pods_WhoIsJohn.framework in Frameworks */,
+				949CB3454E5D58A2457A9C26 /* Pods_WhoIsJohnTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58C19FF5D1270CCC9D2C7F98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AD8C5D3ABA0EA5134306879 /* Pods-WhoIsJohn.debug.xcconfig */,
+				573EA827775C0123F95713BF /* Pods-WhoIsJohn.release.xcconfig */,
+				86A57C0A40405F9D55113869 /* Pods-WhoIsJohnTests.debug.xcconfig */,
+				DFEA3C67307586C914DA9CA6 /* Pods-WhoIsJohnTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6122F7100E4D10CF00751A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E258C6531E13220900ABF1A2 /* Pods_WhoIsJohn.framework */,
+				18CF3E159EC66A4EB0F9C5F7 /* Pods_WhoIsJohn.framework */,
+				0B5D1D6985AD10603BAD7706 /* Pods_WhoIsJohnTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E20E3E7D1E09E55F0081C8C8 = {
 			isa = PBXGroup;
 			children = (
 				E20E3E881E09E55F0081C8C8 /* WhoIsJohn */,
+				E20E3EB11E0A3FEE0081C8C8 /* WhoIsJohnTests */,
 				E20E3E871E09E55F0081C8C8 /* Products */,
+				58C19FF5D1270CCC9D2C7F98 /* Pods */,
+				6122F7100E4D10CF00751A76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				E20E3E861E09E55F0081C8C8 /* WhoIsJohn.app */,
+				E20E3EB01E0A3FEE0081C8C8 /* WhoIsJohnTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +196,11 @@
 		E20E3E9F1E09E9000081C8C8 /* SectionControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E20E3EC21E0A47120081C8C8 /* JLFeaturedWorkCollectionSectionController.swift */,
+				E20E3EC51E0A48980081C8C8 /* JLResumeCategoriesCollectionSectionController.swift */,
+				E258C6461E0DA6E200ABF1A2 /* JLFeaturedWorkSectionController.swift */,
+				E258C6481E11E98A00ABF1A2 /* JLResumeTitleSectionController.swift */,
+				E258C64F1E120F5000ABF1A2 /* JLResumeCategorySectionController.swift */,
 			);
 			name = SectionControllers;
 			sourceTree = "<group>";
@@ -98,6 +208,11 @@
 		E20E3EA01E09E9080081C8C8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E20E3EC71E0A50840081C8C8 /* JLHorizontalEmbeddedCollectionViewCell.swift */,
+				E20E3EC91E0A53140081C8C8 /* JLFeaturedWorkCollectionViewCell.swift */,
+				E258C64A1E11F72B00ABF1A2 /* JLResumeTitleCollectionViewCell.swift */,
+				E258C64D1E120F0800ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCell.swift */,
+				E258C6511E120F9600ABF1A2 /* JLResumeCategoryCollectionViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -105,12 +220,66 @@
 		E20E3EA11E09E9180081C8C8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E20E3EA21E0A18740081C8C8 /* FeaturedEntryLoader.swift */,
-				E20E3EA61E0A18D50081C8C8 /* FeaturedEntry.swift */,
-				E20E3EA81E0A18E60081C8C8 /* ResumeCategoryLoader.swift */,
-				E20E3EAA1E0A18F60081C8C8 /* ResumeCategory.swift */,
+				E20E3EA21E0A18740081C8C8 /* JLFeaturedEntryLoader.swift */,
+				E20E3EA61E0A18D50081C8C8 /* JLFeaturedEntry.swift */,
+				E20E3EA81E0A18E60081C8C8 /* JLResumeCategoryLoader.swift */,
+				E20E3EAA1E0A18F60081C8C8 /* JLResumeCategory.swift */,
+				E258C6441E0BC96300ABF1A2 /* NSObject+IGListDiffable.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		E20E3EB11E0A3FEE0081C8C8 /* WhoIsJohnTests */ = {
+			isa = PBXGroup;
+			children = (
+				E20E3EBD1E0A400A0081C8C8 /* ViewControllers */,
+				E20E3EBC1E0A40050081C8C8 /* SectionControllers */,
+				E20E3EBB1E0A3FFF0081C8C8 /* Views */,
+				E20E3EBA1E0A3FFB0081C8C8 /* Model */,
+				E20E3EB41E0A3FEE0081C8C8 /* Info.plist */,
+				E20E3EBE1E0A40290081C8C8 /* AppDelegateTest.swift */,
+			);
+			path = WhoIsJohnTests;
+			sourceTree = "<group>";
+		};
+		E20E3EBA1E0A3FFB0081C8C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E258C6551E13327600ABF1A2 /* JLResumeCategoryTest.swift */,
+				E258C6571E13337D00ABF1A2 /* JLFeaturedEntryTest.swift */,
+				E258C6591E13390200ABF1A2 /* JLFeaturedEntryLoaderTest.swift */,
+				E258C65B1E13399900ABF1A2 /* JLResumeCategoryLoaderTest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E20E3EBB1E0A3FFF0081C8C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E258C65D1E133AA300ABF1A2 /* JLResumeTitleCollectionViewCellTest.swift */,
+				E258C65F1E133D8900ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCellTest.swift */,
+				E2FEAF031E134B350093EE9E /* JLHorizontalEmbeddedCollectionViewCellTest.swift */,
+				E2A07CF81E134CC100797262 /* JLResumeCategoryCollectionViewCellTest.swift */,
+				E2A07CFA1E13510700797262 /* JLFeaturedWorkCollectionViewCellTest.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E20E3EBC1E0A40050081C8C8 /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2A07D011E138CEA00797262 /* JLFeaturedWorkCollectionSectionControllerTest.swift */,
+				E2A07D031E1391F700797262 /* JLResumeCategoriesCollectionSectionControllerTest.swift */,
+			);
+			name = SectionControllers;
+			sourceTree = "<group>";
+		};
+		E20E3EBD1E0A400A0081C8C8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2A07D051E1393D600797262 /* JLRootViewControllerTest.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E20E3E981E09E55F0081C8C8 /* Build configuration list for PBXNativeTarget "WhoIsJohn" */;
 			buildPhases = (
+				7AA25AEDED1DD5D439E7FADA /* [CP] Check Pods Manifest.lock */,
 				E20E3E821E09E55F0081C8C8 /* Sources */,
 				E20E3E831E09E55F0081C8C8 /* Frameworks */,
 				E20E3E841E09E55F0081C8C8 /* Resources */,
+				28564F61D6BAFD0FE766EB5B /* [CP] Embed Pods Frameworks */,
+				C2CCA50598A3BF39ACC187F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +304,27 @@
 			productName = WhoIsJohn;
 			productReference = E20E3E861E09E55F0081C8C8 /* WhoIsJohn.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E20E3EAF1E0A3FEE0081C8C8 /* WhoIsJohnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20E3EB71E0A3FEE0081C8C8 /* Build configuration list for PBXNativeTarget "WhoIsJohnTests" */;
+			buildPhases = (
+				07CC74623AE7A3FA291EB3B4 /* [CP] Check Pods Manifest.lock */,
+				E20E3EAC1E0A3FEE0081C8C8 /* Sources */,
+				E20E3EAD1E0A3FEE0081C8C8 /* Frameworks */,
+				E20E3EAE1E0A3FEE0081C8C8 /* Resources */,
+				B6642EB8F6602E006243F051 /* [CP] Embed Pods Frameworks */,
+				FFDC190A10F126DD0D3DF1A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20E3EB61E0A3FEE0081C8C8 /* PBXTargetDependency */,
+			);
+			name = WhoIsJohnTests;
+			productName = WhoIsJohnTests;
+			productReference = E20E3EB01E0A3FEE0081C8C8 /* WhoIsJohnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,6 +340,13 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 6UN3N9H6B4;
 						ProvisioningStyle = Automatic;
+					};
+					E20E3EAF1E0A3FEE0081C8C8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6UN3N9H6B4;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E20E3E851E09E55F0081C8C8;
 					};
 				};
 			};
@@ -164,6 +364,7 @@
 			projectRoot = "";
 			targets = (
 				E20E3E851E09E55F0081C8C8 /* WhoIsJohn */,
+				E20E3EAF1E0A3FEE0081C8C8 /* WhoIsJohnTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,23 +379,162 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E20E3EAE1E0A3FEE0081C8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07CC74623AE7A3FA291EB3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28564F61D6BAFD0FE766EB5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhoIsJohn/Pods-WhoIsJohn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA25AEDED1DD5D439E7FADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6642EB8F6602E006243F051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhoIsJohnTests/Pods-WhoIsJohnTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CCA50598A3BF39ACC187F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhoIsJohn/Pods-WhoIsJohn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDC190A10F126DD0D3DF1A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhoIsJohnTests/Pods-WhoIsJohnTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E20E3E821E09E55F0081C8C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20E3EA71E0A18D50081C8C8 /* FeaturedEntry.swift in Sources */,
+				E258C6501E120F5000ABF1A2 /* JLResumeCategorySectionController.swift in Sources */,
+				E258C6491E11E98A00ABF1A2 /* JLResumeTitleSectionController.swift in Sources */,
+				E258C6451E0BC96300ABF1A2 /* NSObject+IGListDiffable.swift in Sources */,
+				E20E3ECA1E0A53140081C8C8 /* JLFeaturedWorkCollectionViewCell.swift in Sources */,
+				E20E3EA71E0A18D50081C8C8 /* JLFeaturedEntry.swift in Sources */,
 				E20E3E9E1E09E8FC0081C8C8 /* JLRootViewController.swift in Sources */,
 				E20E3E8A1E09E55F0081C8C8 /* AppDelegate.swift in Sources */,
-				E20E3EA91E0A18E60081C8C8 /* ResumeCategoryLoader.swift in Sources */,
-				E20E3EAB1E0A18F60081C8C8 /* ResumeCategory.swift in Sources */,
-				E20E3EA31E0A18740081C8C8 /* FeaturedEntryLoader.swift in Sources */,
+				E20E3EA91E0A18E60081C8C8 /* JLResumeCategoryLoader.swift in Sources */,
+				E258C6471E0DA6E200ABF1A2 /* JLFeaturedWorkSectionController.swift in Sources */,
+				E258C64B1E11F72B00ABF1A2 /* JLResumeTitleCollectionViewCell.swift in Sources */,
+				E20E3EC81E0A50840081C8C8 /* JLHorizontalEmbeddedCollectionViewCell.swift in Sources */,
+				E20E3EC31E0A47120081C8C8 /* JLFeaturedWorkCollectionSectionController.swift in Sources */,
+				E258C6521E120F9600ABF1A2 /* JLResumeCategoryCollectionViewCell.swift in Sources */,
+				E20E3EC61E0A48980081C8C8 /* JLResumeCategoriesCollectionSectionController.swift in Sources */,
+				E20E3EAB1E0A18F60081C8C8 /* JLResumeCategory.swift in Sources */,
+				E20E3EA31E0A18740081C8C8 /* JLFeaturedEntryLoader.swift in Sources */,
+				E258C64E1E120F0800ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20E3EAC1E0A3FEE0081C8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A07D041E1391F700797262 /* JLResumeCategoriesCollectionSectionControllerTest.swift in Sources */,
+				E258C6561E13327600ABF1A2 /* JLResumeCategoryTest.swift in Sources */,
+				E2A07D021E138CEA00797262 /* JLFeaturedWorkCollectionSectionControllerTest.swift in Sources */,
+				E258C65C1E13399900ABF1A2 /* JLResumeCategoryLoaderTest.swift in Sources */,
+				E2A07CF91E134CC100797262 /* JLResumeCategoryCollectionViewCellTest.swift in Sources */,
+				E258C65A1E13390200ABF1A2 /* JLFeaturedEntryLoaderTest.swift in Sources */,
+				E258C6601E133D8900ABF1A2 /* JLResumeCategoriesEmbeddedCollectionViewCellTest.swift in Sources */,
+				E2FEAF041E134B350093EE9E /* JLHorizontalEmbeddedCollectionViewCellTest.swift in Sources */,
+				E258C6581E13337D00ABF1A2 /* JLFeaturedEntryTest.swift in Sources */,
+				E2A07CFB1E13510700797262 /* JLFeaturedWorkCollectionViewCellTest.swift in Sources */,
+				E258C65E1E133AA300ABF1A2 /* JLResumeTitleCollectionViewCellTest.swift in Sources */,
+				E2A07D061E1393D600797262 /* JLRootViewControllerTest.swift in Sources */,
+				E20E3EBF1E0A40290081C8C8 /* AppDelegateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20E3EB61E0A3FEE0081C8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20E3E851E09E55F0081C8C8 /* WhoIsJohn */;
+			targetProxy = E20E3EB51E0A3FEE0081C8C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E20E3E921E09E55F0081C8C8 /* LaunchScreen.storyboard */ = {
@@ -226,6 +566,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -275,6 +616,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -301,6 +643,7 @@
 		};
 		E20E3E991E09E55F0081C8C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD8C5D3ABA0EA5134306879 /* Pods-WhoIsJohn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6UN3N9H6B4;
@@ -314,6 +657,7 @@
 		};
 		E20E3E9A1E09E55F0081C8C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573EA827775C0123F95713BF /* Pods-WhoIsJohn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6UN3N9H6B4;
@@ -322,6 +666,39 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyl.WhoIsJohn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E20E3EB81E0A3FEE0081C8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A57C0A40405F9D55113869 /* Pods-WhoIsJohnTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6UN3N9H6B4;
+				INFOPLIST_FILE = WhoIsJohnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyl.WhoIsJohnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhoIsJohn.app/WhoIsJohn";
+			};
+			name = Debug;
+		};
+		E20E3EB91E0A3FEE0081C8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEA3C67307586C914DA9CA6 /* Pods-WhoIsJohnTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6UN3N9H6B4;
+				INFOPLIST_FILE = WhoIsJohnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyl.WhoIsJohnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhoIsJohn.app/WhoIsJohn";
 			};
 			name = Release;
 		};
@@ -344,6 +721,16 @@
 				E20E3E9A1E09E55F0081C8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20E3EB71E0A3FEE0081C8C8 /* Build configuration list for PBXNativeTarget "WhoIsJohnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20E3EB81E0A3FEE0081C8C8 /* Debug */,
+				E20E3EB91E0A3FEE0081C8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
